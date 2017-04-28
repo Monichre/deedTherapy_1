@@ -87,7 +87,11 @@ h2 {
     font-size: 1.8rem;
     margin: 0;
 }
-
+/*Nav Title h2*/
+.title {
+    color: #e8c2bc;
+    font-size: 54px;
+}
 h3 {
     font-size: 1.4rem;
 }
@@ -108,7 +112,7 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+
     margin: 0 0 10px;
 }
 h4,
@@ -938,6 +942,9 @@ nav[role="navigation"] {
  background-repeat: no-repeat;
  background-position: center right;
 }
+.landing-wrapper.therapy {
+    background-image: url(../water.jpg);
+}
 .wrapper-inner-content {
     background: rgba(255, 255, 255, 0.90);
  width: 70%;
@@ -1081,7 +1088,7 @@ nav[role="navigation"] {
     .page-desc h1,
     .page-desc h2,
     .page-desc h3{
-        font-size: 2.8rem;
+        font-size: 2rem;
     }
     /*===== Titles =====*/
     .site-title {
@@ -1111,7 +1118,7 @@ nav[role="navigation"] {
         float: left;
     }
     .cd-nav .cd-primary-nav {
-        margin-top: 160px;
+        /*margin-top: 160px;*/
     }
     .cd-nav .cd-primary-nav a {
         font-size: 36px;
@@ -1305,7 +1312,7 @@ nav[role="navigation"] {
         width: 75%;
     }
     .site-tagline p {
-        font-size: 48px;
+        font-size: 40px;
     }
     .site-tagline h1 {
         font-size: 3.2rem;
@@ -1322,7 +1329,7 @@ nav[role="navigation"] {
         padding: 60px 140px 60px calc(58px + 140px);
     }
     .cd-nav .cd-primary-nav a {
-        font-size: 54px;
+        font-size: 30px;
     }
     .cd-nav .cd-contact-info li,
     .cd-nav .cd-contact-info a,
@@ -1356,7 +1363,7 @@ nav[role="navigation"] {
     }
 
     h3 {
-        font-size: 2.3rem;
+        /*font-size: 2.3rem;*/
     }
 
     h4 {
@@ -1417,7 +1424,7 @@ nav[role="navigation"] {
 .wrap-about .w-content tr{
   height: 35px;
 }
-.wrap-about .head-about {
+.head-about {
     font-size: 13px;
   line-height: 34px;
   letter-spacing: 0.5px;
