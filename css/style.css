@@ -872,7 +872,7 @@ nav[role="navigation"] {
     padding: 80px 50px;
     position: relative;
     transition: all 0.5s;
-    
+
 }
 .blog__item .service-section {
     padding-top: 0;
@@ -940,6 +940,8 @@ nav[role="navigation"] {
     overflow: hidden;
     width: 100%;
     font-size: 1.4rem;
+    line-height: 60px;
+
 }
 #blog .blog_item h1 {
     overflow: hidden;
