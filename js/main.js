@@ -84,5 +84,7 @@ jQuery(document).ready(function($){
       baseClass : "owl-carousel",
       theme : "owl-theme"
     });
-	
+
+	init_services();
+
 }(window.jQuery);
