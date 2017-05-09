@@ -934,6 +934,27 @@ nav[role="navigation"] {
     color: #fff;
 }
 
+/*--------------------------*/
+
+/*1st Page*/
+
+/*--------------------------*/
+
+#welcome .image-container {
+    height: 200px;
+    width: 200px;
+    padding:10px;
+    margin: auto;
+}
+
+#welcome .image-container img {
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    display: block;
+}
+
+
 /*
  * Split section
  */
@@ -1931,7 +1952,7 @@ nav[role="navigation"] {
 
 
 
-#welcome, #rates, #service-price {
+#welcome, #rates, #service-price, #education-awards {
 
   width: 100%;
   padding-top: 0!important;
@@ -1942,6 +1963,9 @@ nav[role="navigation"] {
     position: relative;
     transition: all 0.5s;
 
+}
+#education-awards li {
+    margin-bottom: 10px;
 }
 .page-section#service-price {
     border-top: none;
@@ -2353,6 +2377,15 @@ letter-spacing: 1px;
     color: #999;
     font-size: 12px;
 }
-.left img.img-rounded {
+.left .image-container {
+    height: 350px;
+    width: 350px;
+    margin-right: 20px;
     padding: 20px;
+}
+
+.left .img-rounded {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
 }
