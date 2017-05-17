@@ -1952,17 +1952,19 @@ nav[role="navigation"] {
 
 
 
-#welcome, #rates, #service-price, #education-awards {
+#welcome, #rates, #service-price, #education-awards, #contact {
 
   width: 100%;
   padding-top: 0!important;
   padding-bottom: 80px!important;
   border-top: 15px double #798F95;
     border-bottom: 15px double #798F95;
-    /*padding: 80px 50px;*/
     position: relative;
     transition: all 0.5s;
+}
 
+#contact {
+    border-bottom: none;
 }
 #education-awards li {
     margin-bottom: 10px;
@@ -2388,4 +2390,28 @@ letter-spacing: 1px;
     border-radius: 50%;
     height: 100%;
     width: 100%;
+}
+
+/*-----------------------------------------------------*/
+
+            /*Contact Page Styles*/
+
+/*-----------------------------------------------------*/
+
+
+
+.hero {
+  padding: 100px 0 100px;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    font-size: 12px;
+    padding: 30px 30px 0;
+  }
+  .hero h1 {
+    font-size: 3.5em;
+  }
 }
