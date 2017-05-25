@@ -908,7 +908,7 @@ nav[role="navigation"] {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 
-	padding: 140px 0;
+	/*padding: 140px 0;*/
 }
 
 .small-section {
@@ -1407,8 +1407,8 @@ nav[role="navigation"] {
 #blog .blog_item h1 {
     overflow: hidden;
 }
-/*===== Footer =====*/
-.site-footer { padding: 40px 200px;}
+
+
 
 /*=================================*/
 /* Structure
@@ -1503,7 +1503,7 @@ nav[role="navigation"] {
     margin:0;
     padding: 0;
 }
-.site-footer { padding: 40px 20px; }
+
 .right {
     float: right;
     margin: 0px 0px 40px 40px ;
@@ -1536,15 +1536,18 @@ nav[role="navigation"] {
 /*=================================*/
 /* Footer Styles
 /*=================================*/
-.site-footer {
-    color: #2c2c2c;
-
+.footer .blog_item_inner h1 {
+    margin: 0;
+    color: #fff;
 }
-.site-footer p { margin: 0; font-size: 16px;display: inline;}
-.site-footer a,
-.site-footer a:visited { color: #2c2c2c; }
-.site-footer a:hover { color: #90D4C5; }
+.footer .blog_item_inner .section-header {
+    text-align: center;
+    color: #fff!important;
+}
 
+.footer .blog_item_inner .affiliates {
+    float: left;
+}
 /*=================================*/
 /* Media Queries
 /*=================================*/
@@ -1958,9 +1961,12 @@ nav[role="navigation"] {
   padding-top: 0!important;
   padding-bottom: 80px!important;
   border-top: 15px double #798F95;
-    border-bottom: 15px double #798F95;
+    border-bottom: none;
     position: relative;
     transition: all 0.5s;
+}
+#alternative-therapies {
+    border-top: 15px double #798F95;
 }
 
 #contact {
@@ -1970,7 +1976,7 @@ nav[role="navigation"] {
     margin-bottom: 10px;
 }
 .page-section#service-price {
-    border-top: none;
+    border: none;
     padding: 40px 0;
 
 }
